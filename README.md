@@ -140,7 +140,25 @@ El primer paso para crear la App es guardar los df limpios en archivos csv
 ```python
 .to_csv('nombre', sep=';', header=True, index=False)
 ```
-[portada](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140738115)
+
+* Configuración de la página
+[portada](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140738206)
+
+* Menú
+  [menu](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140738494)
+
+  * Ver las imagenes según lo configurado
+ 
+    [explora](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140738712)
+
+  * Por ultimo, podrás ver el panel interactivo realizado con Power Bi  si te gustaria visualizar los datos
+ 
+  [power](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140738952)
+
+
+  
+
+
 
 
 
