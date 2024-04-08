@@ -12,6 +12,9 @@ En este análisis exploratorio se utilizó la base de datos de:
 
 [PDF1](https://www.dublincity.ie/sites/default/files/2023-12/dublin-city-council_tourism-strategy_online_aw_sml.pdf)
 
+## Ver notebbok con códigos utiizados
+[jup](https://github.com/AleDV89/Dublin_AirBnb/blob/main/%5BSOLUCIONES%5D%5BEjercicio%201%5D%20AirBnb.ipynb)
+
 ### 🧪 Requisitos: 
 `pandas` , `numpy` , `seaborn`, `plt`, `os`, `streamlit`, `PyPDFLoader` , ` Chroma` ,
 ` ChatOpenAI` , `StrOutputParser` , `RunnablePassthrough` , `gr`, `PdfFileReader`
