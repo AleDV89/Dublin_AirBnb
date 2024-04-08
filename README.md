@@ -139,6 +139,8 @@ Con este gráfico se puede ver por medio de puntos y colores donde y cuantos hay
 
 # Streamlit App
 
+[Códigos_App](https://github.com/AleDV89/Dublin_AirBnb/blob/main/app_dublin.py)
+
 El primer paso para crear la App es guardar los df limpios en archivos csv 
 ```python
 .to_csv('nombre', sep=';', header=True, index=False)
