@@ -147,18 +147,18 @@ El primer paso para crear la App es guardar los df limpios en archivos csv
 ```
 
 * Configuración de la página
-[portada](images/app1.png.png)
+![portada](images/app1.png.png)
 
 * Menú
-  [menu](images/Dublín Grafton Street.png)
+  ![menu](images/Dublín Grafton Street.png)
 
   * Ver las imagenes según lo configurado
  
-    [explora](images/Dublín Grafton Street (1).png)
+  ![explora](images/Dublín Grafton Street (1).png)
 
   * Por ultimo, podrás ver el panel interactivo realizado con Power Bi  si te gustaria visualizar los datos
  
-  [power](images/Dublín Grafton Street (3).png)
+  ![power](images/Dublín Grafton Street (3).png)
 
 
   
