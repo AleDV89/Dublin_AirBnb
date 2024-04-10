@@ -78,64 +78,8 @@ Resultado: Todos los barrios cuentan con la misma distribución
 .fillna({'reviews_per_month':0}, inplace=True)
 ```
 
-### 📈 Correlación de las variables
-
-[correl](https://private-user-images.githubusercontent.com/161485153/320531757-94826eb6-e632-418b-9cc7-5badbb25ec00.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1OTE1MjcsIm5iZiI6MTcxMjU5MTIyNywicGF0aCI6Ii8xNjE0ODUxNTMvMzIwNTMxNzU3LTk0ODI2ZWI2LWU2MzItNDE4Yi05Y2M3LTViYWRiYjI1ZWMwMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwOFQxNTQ3MDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YTNlMWRjZWM2OWE3OTYxOGQyNDc3NzhjZTA5YTA4Zjg5OTVmMDFiYjkyZWQ5MWIwZTgwNzM3ZjEyOTE3NGNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.4lYNYozJK0kFr5hSS3R7gvyojFmRU9IJB0enULJKTEc)
-
-##### Se correlacionan las variables: `reviews` y `tipo de propiedad` 
-
-* 'calculated_host_listings_count_entire_homes' el alquiler de casas o pisos enteros tiene más relación con 'review_scores_location' y menos relacion con 'review_scores_value'
-* 'calculated_host_listings_count_private_rooms' el alquiler de habitaciones privadas tiene más relación con 'review_scores_cleanliness' (aunque sea negativo entre todos los reviews es el que más cerca del 1 está) y menos relación con 'review_scores_location'
-* 'calculated_host_listings_count_shared_rooms' alquiler de habitaciones compartidas tiene más relación con 'review_scores_checkin' y menos que 'review_scores_cleanliness'
-- En conclusión: no tienen mucha correlacion las variables analizadas ya que todos estan por debajo del 1. Entre los tres el ultimo se puede decir que tiene un poco más de correlación
-
-
-
-### 📈 Conteo de palabras que más se repiten en la columna `comentarios` con `WordCloud`
-
-[graf_pal](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140736941)
-
-Tambien se utiliza la función.value_count() y se verifica cuantas veces se usan las palabras
-* Very se usa_ 103.062 veces
-* Great se usa 60.801
-* Location se usa 37.336
-
-  
-### 📈 Se visualizan los barrios y sus importancias
-[barrios](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140737155)
-
-Dublín cuenta con cuatros barrios
-Con el gráfico se observa que hay más viviendas en Dublin City comparando con los otros barrios.
-
-
-### 🏰 Clasificación según tipo de viviendas
-[tipos de viviendas](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140737248)
-
-Se observan cuatro tipos de viviendas y del tipo enteras son las que se observa mayor cantidad.
-
-### 📊 Visualización de tipos de barios y viviendas disponibles todo el año
-[box](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140737496)
-
-Según el gráfico diagrama de caja se visualiza la distribución y la variablidad de los 4 barrios de Dublin con la variable disponible 365 días. 
-Con respecto a la dispersión de los datos en las cuatro cajas se observa la linea donde se centran los datos representando el rango intercuartil más alto el barrio Dn Laoghaire-Rathdown es la linea dentro de la caja más alta, quiere decir que la media de sus datos es mayor a la de los demás. 
-Aunque la variablididad entre grupos es bastante similar excepto en Dublin City.
-
-### 📊 Mapa de los grupos de barrio
-
-[mapa](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140737582)
-
-
-### 📊 Mapa de tipos de habitación por barrio
-
-[room](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140737640)
-
-
-### 📊 Disponibilidad de habitaciones según disponibilidad
-Este gráfico es muy interesantes porque no todas las viviendas están disponibles todo los dias. 
-Con este gráfico se puede ver por medio de puntos y colores donde y cuantos hay. 
-
-
-[dispo](https://github.com/AleDV89/Dublin_AirBnb/commit/5c2df8c800bdf44527abe7e9d403fc436a1e8497#commitcomment-140737731)
+### 📈 Gráficos y Códigos en el notebook 
+[Códigos](https://github.com/AleDV89/Dublin_AirBnb/blob/main/%5BSOLUCIONES%5D%5BEjercicio%201%5D%20AirBnb.ipynb) 
 
 # Streamlit App
 
@@ -150,15 +94,15 @@ El primer paso para crear la App es guardar los df limpios en archivos csv
 ![portada](images/app1.png.png)
 
 * Menú
-  ![menu](images/Dublín Grafton Street.png)
+![menu](images/Dublín Grafton Street.png)
 
   * Ver las imagenes según lo configurado
  
-  ![explora](images/Dublín Grafton Street (1).png)
+![explora](images/Dublín Grafton Street (1).png)
 
   * Por ultimo, podrás ver el panel interactivo realizado con Power Bi  si te gustaria visualizar los datos
  
-  ![power](images/Dublín Grafton Street (3).png)
+![power](images/Dublín Grafton Street (3).png)
 
 
   
