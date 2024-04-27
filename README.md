@@ -30,7 +30,7 @@ El proyecto está compuesto por:
 * Desarrollo de App con Streamlit.
 
  ### Ver los notebooks
- [Limpieza y Eda](
+ [Notebook EDA](https://github.com/AleDV89/Dublin_AirBnb/blob/main/notebook/Notebook%20Airbnb.ipynb)
 
 
 
