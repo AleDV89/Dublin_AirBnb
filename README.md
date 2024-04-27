@@ -31,6 +31,7 @@ El proyecto está compuesto por:
 
  ### Ver los notebooks
  [Notebook EDA](https://github.com/AleDV89/Dublin_AirBnb/blob/main/notebook/Notebook%20Airbnb.ipynb)
+ [APP](https://github.com/AleDV89/Dublin_AirBnb/blob/main/app_dublin.py)
 
 
 
